@@ -22,6 +22,7 @@ import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
 @RequiredArgsConstructor
 public class RestExceptionHandler {
 
+    public static final String OK_RESPONSE_CODE = "200";
     public static final String BAD_REQUEST_RESPONSE_CODE = "400";
     public static final String INTERNAL_SERVER_ERROR_RESPONSE_CODE = "500";
 

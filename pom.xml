@@ -23,6 +23,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <big.math.version>2.3.0</big.math.version>
+        <openapi.ui.version>1.4.8</openapi.ui.version>
     </properties>
 
     <dependencies>
@@ -39,6 +40,11 @@
             <groupId>ch.obermuhlner</groupId>
             <artifactId>big-math</artifactId>
             <version>${big.math.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>${openapi.ui.version}</version>
         </dependency>
 
         <dependency>
