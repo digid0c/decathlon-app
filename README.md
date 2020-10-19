@@ -6,6 +6,7 @@
 * [Requirements](#requirements)
 * [Build](#build)
 * [Usage](#usage)
+* [Further development](#further-development)
 
 # Requirements
 * Java 11 or higher
@@ -37,4 +38,21 @@ In order to do that, just replace all `mvn` commands with `mvnw`.
 
 # Usage
 
+* [Local](#local)
+* [Heroku](#heroku)
+
+## Local
 When app is up, go to http://localhost:8080/swagger-ui.html and start exploring the API.
+
+## Heroku
+In case you do not want to deal with local deployment process this app has been also deployed to
+Heroku and is available at https://decathlon-app-demo.herokuapp.com/swagger-ui.html
+
+# Further development
+
+Here is a list of some nice-to-have features that could be implemented as well:
+* Rate limiting proxy a.k.a. throttling proxy to gain protection from possible DDoS attacks
+* Restrict access to API based on access tokens like JWT or something similar
+* Add SonarQube quality gate coverage
+* Implement app health monitoring, collect metrics
+* Deploy app to Docker Hub as independent Docker image
