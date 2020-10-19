@@ -20,3 +20,4 @@ deploy:
   app: decathlon-app-demo
   on:
     branch: master
+  skip_cleanup: true
