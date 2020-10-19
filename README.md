@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/digid0c/decathlon-app.svg?branch=master)](https://travis-ci.com/github/digid0c/decathlon-app)
+[![codecov](https://codecov.io/gh/digid0c/decathlon-app/branch/master/graph/badge.svg)](https://codecov.io/gh/digid0c/decathlon-app)
 
 # Decathlon demo application
 
