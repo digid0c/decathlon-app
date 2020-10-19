@@ -1,1 +1,1 @@
-web: java -jar target/decathlon-*.jar
+web: java -Dserver.port=$PORT -jar target/decathlon-*.jar
